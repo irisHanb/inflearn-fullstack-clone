@@ -2,7 +2,7 @@ import NextAuth from "next-auth";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { prisma } from "@/prisma";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { compoarePassword } from "./src/lib/password-utils";
+import { compoarePassword } from "./lib/password-utils";
 import * as jwt from "jsonwebtoken";
 import { JWT } from "next-auth/jwt";
 
